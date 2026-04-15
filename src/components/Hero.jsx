@@ -30,8 +30,17 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-5xl md:text-7xl lg:text-[5rem] font-black mb-6 tracking-tight leading-[1.05] text-slate-900"
             >
-              Master <span className="text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 via-blue-600 to-cyan-500 drop-shadow-sm">Mathematics</span> <br className="hidden md:block"/> with Expertise.
+              Master <span className="font-academic text-transparent bg-clip-text bg-gradient-to-br from-indigo-600 via-blue-600 to-cyan-500 drop-shadow-sm">Mathematics</span> <br className="hidden md:block"/> with Expertise.
             </motion.h1>
+
+            <motion.p
+              initial={{ opacity: 0, y: 24 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.3 }}
+              className="text-slate-700 text-base md:text-lg font-bold mb-3"
+            >
+              <span className="font-academic text-slate-900">Riaz Ahmed</span> | Mathematics Educator | Academic Mentor | Curriculum Specialist
+            </motion.p>
             
             <motion.p 
               initial={{ opacity: 0, y: 30 }}
@@ -39,27 +48,38 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-lg md:text-xl text-slate-600 mb-10 max-w-xl leading-relaxed font-medium"
             >
-              Hi, I'm Riaz Ahmed. I hold a BS (Hons) in Mathematics and bring over 9+ years of experience helping students globally achieve academic excellence.
+              Transforming mathematics into clarity, confidence, and excellence for global learners. Online mathematics education for international students.
             </motion.p>
+
+            <p className="text-slate-500 text-sm md:text-base font-semibold mb-8 -mt-4">
+              10+ Years Teaching Experience
+            </p>
             
             <motion.div
                initial={{ opacity: 0, y: 20 }}
                animate={{ opacity: 1, y: 0 }}
                transition={{ duration: 0.5, delay: 0.6 }}
-               className="flex flex-col sm:flex-row gap-5"
+               className="flex flex-col sm:flex-row gap-4 flex-wrap"
             >
               <a 
                 href="#contact" 
                 className="relative overflow-hidden inline-flex items-center justify-center bg-indigo-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-indigo-700 hover:shadow-[0_8px_30px_rgba(79,70,229,0.4)] transition-all duration-300 transform hover:-translate-y-1 group"
               >
                 <div className="absolute inset-0 w-1/4 h-full bg-white/20 skew-x-12 -translate-x-24 group-hover:animate-[shine_1.5s_ease-in-out]"></div>
-                Book Online Class <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
+                Book a Trial Lesson <ArrowRight size={20} className="ml-2 group-hover:translate-x-1 transition-transform" />
               </a>
               <a 
                 href="#services" 
                 className="inline-flex items-center justify-center glass-card text-slate-800 px-8 py-4 rounded-full font-bold text-lg hover:bg-white/90 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
               >
-                Explore Services
+                View Courses
+              </a>
+              <a
+                href="/Riaz_Ahmed_CV.pdf"
+                download
+                className="inline-flex items-center justify-center bg-white text-slate-800 px-8 py-4 rounded-full font-bold text-lg border border-slate-200 hover:bg-slate-50 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1"
+              >
+                Download CV
               </a>
             </motion.div>
 
