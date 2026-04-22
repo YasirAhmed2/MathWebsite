@@ -1586,7 +1586,11 @@ const blogs = [
 const Blog = () => {
   const [activeBlogIndex, setActiveBlogIndex] = useState(null);
   const [showAllPosts, setShowAllPosts] = useState(false);
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
   const featuredDefaultTitle = "Professional Growth in Education: Advancing Excellence Through Continuous Development";
+
+  const categories = ["All", ...new Set(blogs.map(blog => blog.tag))];
 
   const handleHeadingClick = (index, hasContent) => {
     if (!hasContent) return;
@@ -1650,20 +1654,33 @@ const Blog = () => {
   };
 
   const activeBlog = activeBlogIndex !== null ? blogs[activeBlogIndex] : null;
-  const hasMorePosts = blogs.length > 3;
+  
+  const filteredBlogs = selectedCategory === "All" 
+    ? blogs 
+    : blogs.filter(blog => blog.tag === selectedCategory);
+
   const featuredDefaultPost = blogs.find((blog) => blog.title === featuredDefaultTitle);
-  const defaultVisibleBlogs = [blogs[0], blogs[1], featuredDefaultPost]
-    .filter(Boolean)
-    .filter((blog, index, arr) => arr.findIndex((item) => item.title === blog.title) === index);
-  const visibleBlogs = showAllPosts || !hasMorePosts ? blogs : defaultVisibleBlogs;
+  let defaultVisibleBlogs = [];
+  
+  if (selectedCategory === "All") {
+    defaultVisibleBlogs = [blogs[0], blogs[1], featuredDefaultPost]
+      .filter(Boolean)
+      .filter((blog, index, arr) => arr.findIndex((item) => item.title === blog.title) === index);
+  } else {
+    // If a specific category is selected, initially show up to 3 posts from that category
+    defaultVisibleBlogs = filteredBlogs.slice(0, 3);
+  }
+
+  const hasMorePosts = filteredBlogs.length > 3;
+  const visibleBlogs = showAllPosts || !hasMorePosts ? filteredBlogs : defaultVisibleBlogs;
 
   return (
     <>
       <section id="blog" className="py-32 bg-[#f8fafc] relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-slate-200 to-transparent"></div>
         <div className="container mx-auto px-6 md:px-12 max-w-7xl relative z-10">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-20">
-          <div className="max-w-2xl">
+        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-10">
+          <div className="max-w-2xl w-full">
             <div className="inline-flex items-center text-indigo-600 font-bold tracking-wider uppercase mb-5 text-sm bg-indigo-50 px-5 py-2.5 rounded-full border border-indigo-100 shadow-sm">
               <BookOpen size={16} className="mr-2"/> Articles & Insights
             </div>
@@ -1686,30 +1703,57 @@ const Blog = () => {
             </motion.p>
           </div>
           
-           <motion.button 
-             type="button"
-             onClick={() => setShowAllPosts(true)}
-             initial={{ opacity: 0, x: 20 }}
-             whileInView={{ opacity: 1, x: 0 }}
-             viewport={{ once: true }}
-             className="inline-flex items-center justify-center px-8 py-4 bg-white border border-slate-200 rounded-full text-slate-800 font-bold hover:bg-slate-50 hover:shadow-lg transition-all transform hover:-translate-y-1 disabled:opacity-70 disabled:cursor-default disabled:hover:translate-y-0 disabled:hover:shadow-none"
-             disabled={showAllPosts || !hasMorePosts}
-          >
-             {showAllPosts || !hasMorePosts ? 'All Posts Shown' : 'Show All Posts'} <ArrowRight size={20} className="ml-2 text-indigo-500" />
-           </motion.button>
+          <div className="flex flex-col items-start md:items-end gap-6 w-full md:w-auto">
+            {/* Category Filter */}
+            <motion.div 
+               initial={{ opacity: 0, x: 20 }}
+               whileInView={{ opacity: 1, x: 0 }}
+               viewport={{ once: true }}
+               className="flex flex-wrap gap-2 justify-start md:justify-end w-full"
+            >
+              {categories.map(category => (
+                <button
+                  key={category}
+                  onClick={() => { setSelectedCategory(category); setShowAllPosts(false); }}
+                  className={`px-5 py-2 rounded-full text-sm font-bold transition-all duration-300 ${
+                    selectedCategory === category
+                      ? 'bg-indigo-600 text-white shadow-md shadow-indigo-200/50 hover:bg-indigo-700'
+                      : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 hover:border-indigo-200 hover:text-indigo-600'
+                  }`}
+                >
+                  {category}
+                </button>
+              ))}
+            </motion.div>
+
+            <motion.button 
+              type="button"
+              onClick={() => setShowAllPosts(true)}
+              initial={{ opacity: 0, x: 20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="inline-flex items-center justify-center px-8 py-4 bg-white border border-slate-200 rounded-full text-slate-800 font-bold hover:bg-slate-50 hover:shadow-lg transition-all transform hover:-translate-y-1 disabled:opacity-70 disabled:cursor-default disabled:hover:translate-y-0 disabled:hover:shadow-none"
+              disabled={showAllPosts || !hasMorePosts}
+            >
+              {showAllPosts || !hasMorePosts ? 'All Posts Shown' : 'Show All Posts'} <ArrowRight size={20} className="ml-2 text-indigo-500" />
+            </motion.button>
+          </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-           {visibleBlogs.map((blog, index) => {
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 min-h-[400px]">
+           <AnimatePresence mode="popLayout">
+           {visibleBlogs.map((blog) => {
             const hasContent = Array.isArray(blog.content) && blog.content.length > 0;
+            const originalIndex = blogs.findIndex(b => b.title === blog.title);
 
             return (
             <motion.div 
-              key={index}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: index * 0.15 }}
+              layout
+              key={blog.title}
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+              transition={{ duration: 0.4 }}
               whileHover={{ y: -12 }}
               className={`bg-white rounded-[2rem] overflow-hidden shadow-[0_10px_30px_rgba(0,0,0,0.04)] border border-slate-100 group flex flex-col h-full transition-all duration-500 hover:${blog.glow} hover:border-transparent relative`}
             >
@@ -1728,7 +1772,7 @@ const Blog = () => {
                 
                 <button
                   type="button"
-                  onClick={() => handleHeadingClick(index, hasContent)}
+                  onClick={() => handleHeadingClick(originalIndex, hasContent)}
                   className={`text-left w-full text-2xl font-black mb-4 leading-[1.3] transition-colors ${hasContent ? 'cursor-pointer hover:text-indigo-600 focus-visible:outline-none focus-visible:text-indigo-600' : ''}`}
                   aria-haspopup={hasContent ? 'dialog' : undefined}
                 >
@@ -1743,7 +1787,7 @@ const Blog = () => {
                 <span className="text-sm font-bold text-slate-400 uppercase tracking-wider">{blog.date}</span>
                 <button
                   type="button"
-                  onClick={() => handleHeadingClick(index, hasContent)}
+                  onClick={() => handleHeadingClick(originalIndex, hasContent)}
                   className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-slate-50 border border-slate-100 group-hover:bg-indigo-600 group-hover:text-white transition-colors duration-300 shadow-sm"
                   aria-label={hasContent ? `Open ${blog.title}` : `View ${blog.title}`}
                 >
@@ -1753,6 +1797,7 @@ const Blog = () => {
             </motion.div>
             );
           })}
+          </AnimatePresence>
         </div>
         </div>
       </section>
