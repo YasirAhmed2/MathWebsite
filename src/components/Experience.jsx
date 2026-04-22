@@ -3,9 +3,9 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { Briefcase, Building2, Calendar } from 'lucide-react';
 
 const experiences = [
-  { company: "Merit Schooling System & College", role: "Mathematics Teacher", years: "2016 - 2017", color: "from-indigo-500 to-blue-500" },
+  { company: "Merit Schooling System & College, Haripur", role: "Mathematics Teacher", years: "2016 - 2017", color: "from-indigo-500 to-blue-500" },
   
-  { company: "Quaid-e-Azam Public School KTS", role: "Mathematics Teacher", years: "2017 - 2025", color: "from-cyan-500 to-teal-500" },
+  { company: "Quaid-e-Azam Public School KTS, Haripur", role: "Mathematics Teacher", years: "2017 - 2025", color: "from-cyan-500 to-teal-500" },
   
 ]
 const Experience = () => {
