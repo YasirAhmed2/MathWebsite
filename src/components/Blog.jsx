@@ -524,7 +524,7 @@ const blogs = [
   {
     title: "The Art and Science of Teaching in Today's Classrooms",
     desc: "A professional perspective on why effective teaching combines instructional science, leadership, and human connection.",
-    date: "Apr 22, 2026",
+    date: "Jan 15, 2026",
     readTime: "9 min read",
     tag: "Teaching",
     gradient: "from-sky-500 to-blue-600",
@@ -612,7 +612,7 @@ const blogs = [
   {
     title: "Strategic Planning: The Foundation of Exceptional Teaching",
     desc: "A professional perspective on why lesson planning is the blueprint of educational success.",
-    date: "Apr 22, 2026",
+    date: "Feb 10, 2026",
     readTime: "9 min read",
     tag: "Teaching",
     gradient: "from-indigo-500 to-blue-600",
@@ -721,7 +721,7 @@ const blogs = [
   {
     title: "Creating High-Performance Classrooms Through Leadership and Discipline",
     desc: "A professional guide to building productive classrooms through structure, motivation, and educational leadership.",
-    date: "Apr 22, 2026",
+    date: "Mar 05, 2026",
     readTime: "9 min read",
     tag: "Teaching",
     gradient: "from-violet-500 to-indigo-600",
@@ -852,7 +852,7 @@ const blogs = [
   {
     title: "Transforming Learning Through Powerful Instructional Methods",
     desc: "A professional perspective on selecting the right instructional method to maximize student achievement.",
-    date: "Apr 22, 2026",
+    date: "Jan 28, 2026",
     readTime: "9 min read",
     tag: "Teaching",
     gradient: "from-blue-500 to-cyan-500",
@@ -985,7 +985,7 @@ const blogs = [
   {
     title: "Assessment Excellence: Measuring Learning, Guiding Success",
     desc: "A professional guide to using assessment as a tool for growth, feedback, and instructional improvement.",
-    date: "Apr 22, 2026",
+    date: "Feb 18, 2026",
     readTime: "9 min read",
     tag: "Teaching",
     gradient: "from-emerald-500 to-cyan-500",
@@ -1117,7 +1117,7 @@ const blogs = [
   {
     title: "Professional Growth in Education: Advancing Excellence Through Continuous Development",
     desc: "A professional perspective on lifelong educator development, reflective practice, and modern instructional leadership.",
-    date: "Apr 22, 2026",
+    date: "Mar 12, 2026",
     readTime: "9 min read",
     tag: "Teaching",
     gradient: "from-cyan-500 to-blue-600",
@@ -1224,7 +1224,7 @@ const blogs = [
   {
     title: "Educational Leadership: Inspiring Excellence Beyond the Classroom",
     desc: "A professional perspective on service-driven leadership that raises standards, strengthens people, and shapes institutional success.",
-    date: "Apr 22, 2026",
+    date: "Jan 05, 2026",
     readTime: "9 min read",
     tag: "Leadership",
     gradient: "from-indigo-600 to-violet-500",
@@ -1345,7 +1345,7 @@ const blogs = [
   {
     title: "Innovation in Education: Preparing Learners for the Future",
     desc: "A professional perspective on integrating innovation, structure, and future-ready learning in modern classrooms.",
-    date: "Apr 22, 2026",
+    date: "Feb 22, 2026",
     readTime: "9 min read",
     tag: "Innovation",
     gradient: "from-teal-500 to-blue-600",
@@ -1468,7 +1468,7 @@ const blogs = [
   {
     title: "Educational Excellence Through Character, Values, and Lasting Impact",
     desc: "A professional perspective on value-based education that develops principled learners and long-term societal impact.",
-    date: "Apr 22, 2026",
+    date: "Mar 20, 2026",
     readTime: "9 min read",
     tag: "Values",
     gradient: "from-amber-500 to-orange-500",
