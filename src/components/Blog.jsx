@@ -531,7 +531,7 @@ const blogs = [
     glow: "shadow-[0_0_30px_rgba(14,165,233,0.3)]",
     content: [
       {
-        heading: "By Sir Riaz",
+        heading: "Introduction",
         paragraphs: [
           "In the modern educational landscape, teaching is no longer limited to delivering information. It is a dynamic profession that combines strategy, leadership, emotional intelligence, and the ability to inspire learners toward excellence.",
           "As an experienced teacher and educationist, I strongly believe that successful teaching is both an art and a science - a philosophy that lies at the heart of effective education."
@@ -619,7 +619,7 @@ const blogs = [
     glow: "shadow-[0_0_30px_rgba(79,70,229,0.3)]",
     content: [
       {
-        heading: "By Sir Riaz",
+        heading: "Introduction",
         paragraphs: [
           "Outstanding teaching does not begin when a teacher enters the classroom - it begins long before, through purposeful planning, thoughtful preparation, and clear instructional vision.",
           "In modern education, effective planning is one of the strongest indicators of professional excellence and student success.",
@@ -728,7 +728,7 @@ const blogs = [
     glow: "shadow-[0_0_30px_rgba(99,102,241,0.3)]",
     content: [
       {
-        heading: "By Sir Riaz",
+        heading: "Introduction",
         paragraphs: [
           "A successful classroom is never built by chance - it is built through leadership, structure, motivation, and professional classroom management.",
           "While subject knowledge is essential, the true strength of an educator is often reflected in the environment they create for learning.",
@@ -859,7 +859,7 @@ const blogs = [
     glow: "shadow-[0_0_30px_rgba(59,130,246,0.3)]",
     content: [
       {
-        heading: "By Sir Riaz",
+        heading: "Introduction",
         paragraphs: [
           "True teaching excellence is not measured only by what a teacher knows - it is measured by how effectively that knowledge is delivered.",
           "In modern education, instructional methods are the bridge between curriculum goals and student success.",
@@ -992,7 +992,7 @@ const blogs = [
     glow: "shadow-[0_0_30px_rgba(16,185,129,0.3)]",
     content: [
       {
-        heading: "By Sir Riaz",
+        heading: "Introduction",
         paragraphs: [
           "In education, teaching is only complete when learning is accurately measured. Assessment is not merely about marks or grades - it is a powerful tool that reveals progress, identifies gaps, motivates learners, and guides future instruction.",
           "As an experienced teacher and educationist, I believe that effective assessment is one of the most important pillars of academic excellence.",
@@ -1124,7 +1124,7 @@ const blogs = [
     glow: "shadow-[0_0_30px_rgba(6,182,212,0.3)]",
     content: [
       {
-        heading: "By Sir Riaz",
+        heading: "Introduction",
         paragraphs: [
           "In the field of education, true excellence is never static. The most distinguished educators are not those who rely solely on past experience, but those who continuously refine their practice, expand their knowledge, and adapt to the evolving needs of learners.",
           "As an experienced teacher and expert educationist, I regard professional growth as one of the defining responsibilities of every serious educator.",
@@ -1231,7 +1231,7 @@ const blogs = [
     glow: "shadow-[0_0_30px_rgba(99,102,241,0.3)]",
     content: [
       {
-        heading: "By Sir Riaz",
+        heading: "Introduction",
         paragraphs: [
           "The influence of a great educator extends far beyond lesson delivery. True professionals in education become leaders - individuals who inspire standards, guide institutions, mentor others, and shape a culture of excellence.",
           "As an experienced teacher and expert educationist, I believe leadership in education is not defined by title alone.",
@@ -1352,7 +1352,7 @@ const blogs = [
     glow: "shadow-[0_0_30px_rgba(20,184,166,0.3)]",
     content: [
       {
-        heading: "By Sir Riaz",
+        heading: "Introduction",
         paragraphs: [
           "Education can no longer remain limited to traditional routines. The modern world demands learners who can think critically, solve problems creatively, adapt quickly, and compete confidently in a changing global environment.",
           "For this reason, innovation has become an essential pillar of educational excellence.",
@@ -1475,7 +1475,7 @@ const blogs = [
     glow: "shadow-[0_0_30px_rgba(245,158,11,0.3)]",
     content: [
       {
-        heading: "By Sir Riaz",
+        heading: "Introduction",
         paragraphs: [
           "The highest purpose of education is not only to produce successful students - it is to develop principled individuals who contribute positively to society.",
           "Academic achievement is important, but character, integrity, discipline, and values are what give education its lasting meaning.",
