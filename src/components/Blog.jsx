@@ -521,11 +521,1072 @@ const blogs = [
     ],
     finalThought: "A large private school is not just an institution; it is a learning organization system. Its success depends on alignment of pedagogy, administration, assessment, and human psychology into a single coherent academic framework. Without system-level thinking, reforms remain superficial. With it, even average schools can become high-performance academic institutions."
   },
+  {
+    title: "The Art and Science of Teaching in Today's Classrooms",
+    desc: "A professional perspective on why effective teaching combines instructional science, leadership, and human connection.",
+    date: "Apr 22, 2026",
+    readTime: "9 min read",
+    tag: "Teaching",
+    gradient: "from-sky-500 to-blue-600",
+    glow: "shadow-[0_0_30px_rgba(14,165,233,0.3)]",
+    content: [
+      {
+        heading: "By Sir Riaz",
+        paragraphs: [
+          "In the modern educational landscape, teaching is no longer limited to delivering information. It is a dynamic profession that combines strategy, leadership, emotional intelligence, and the ability to inspire learners toward excellence.",
+          "As an experienced teacher and educationist, I strongly believe that successful teaching is both an art and a science - a philosophy that lies at the heart of effective education."
+        ]
+      },
+      {
+        heading: "Teaching Beyond the Textbook",
+        paragraphs: [
+          "A truly effective teacher does more than explain lessons. Great educators build confidence, nurture curiosity, develop character, and prepare students for real-world challenges.",
+          "In today's classrooms, students require guidance that goes beyond memorization. They need critical thinking, creativity, communication skills, and moral direction.",
+          "This is why modern teaching demands:",
+          "Clear instructional planning",
+          "Strong classroom leadership",
+          "Student-centered learning approaches",
+          "Motivation and mentorship",
+          "Continuous assessment and improvement"
+        ],
+        listStart: 3,
+        listEnd: 7
+      },
+      {
+        heading: "The Qualities of an Exceptional Educator",
+        paragraphs: [
+          "Professional teaching excellence is built on both personal values and instructional mastery. The most impactful teachers consistently demonstrate:",
+          "Professional Strengths",
+          "Deep subject expertise",
+          "Effective lesson delivery",
+          "Strong classroom management",
+          "Assessment and progress tracking",
+          "Adaptability to student needs",
+          "Personal Strengths",
+          "Patience and empathy",
+          "Confidence and discipline",
+          "Fairness and integrity",
+          "Positive energy",
+          "Commitment to student success",
+          "These qualities transform classrooms into environments where learners thrive."
+        ],
+        listStart: 2,
+        listEnd: 6,
+        secondListStart: 8,
+        secondListEnd: 12
+      },
+      {
+        heading: "Understanding Today's Diverse Learners",
+        paragraphs: [
+          "Every classroom includes students with different abilities, backgrounds, interests, and learning styles. Some learn through visuals, some through discussion, and others through hands-on practice.",
+          "A skilled teacher recognizes these differences and adjusts instruction accordingly.",
+          "True educational leadership means ensuring that every learner receives:",
+          "Equal opportunity",
+          "Respect and encouragement",
+          "Individual support",
+          "Meaningful participation",
+          "A safe environment for growth"
+        ],
+        listStart: 3,
+        listEnd: 7
+      },
+      {
+        heading: "Education with Purpose",
+        paragraphs: [
+          "The ultimate aim of teaching is not only academic success - it is to develop responsible, capable, and confident individuals.",
+          "Education should empower students to think independently, solve problems wisely, and contribute positively to society.",
+          "As an educator, my mission has always been to combine discipline with inspiration, structure with creativity, and knowledge with values."
+        ]
+      },
+      {
+        heading: "My Professional Philosophy",
+        paragraphs: [
+          "I believe that students perform best when they are challenged, respected, and motivated. A classroom should be a place where excellence is expected, learning is engaging, and every child feels capable of success.",
+          "With years of teaching experience and a deep commitment to educational advancement, I continue to strive for one goal:",
+          "To shape minds, build futures, and elevate standards of learning."
+        ]
+      }
+    ],
+    finalThought: "Teaching is one of the most powerful professions in the world. When practiced with skill and passion, it has the ability to change lives, strengthen communities, and create generations of achievers. Excellence in teaching creates excellence in students."
+  },
+  {
+    title: "Strategic Planning: The Foundation of Exceptional Teaching",
+    desc: "A professional perspective on why lesson planning is the blueprint of educational success.",
+    date: "Apr 22, 2026",
+    readTime: "9 min read",
+    tag: "Teaching",
+    gradient: "from-indigo-500 to-blue-600",
+    glow: "shadow-[0_0_30px_rgba(79,70,229,0.3)]",
+    content: [
+      {
+        heading: "By Sir Riaz",
+        paragraphs: [
+          "Outstanding teaching does not begin when a teacher enters the classroom - it begins long before, through purposeful planning, thoughtful preparation, and clear instructional vision.",
+          "In modern education, effective planning is one of the strongest indicators of professional excellence and student success.",
+          "As an experienced teacher and educationist, I believe that every successful lesson is the result of structured preparation, meaningful objectives, and a commitment to delivering learning with precision."
+        ]
+      },
+      {
+        heading: "Why Planning Matters in Education",
+        paragraphs: [
+          "Teaching without planning often leads to confusion, weak engagement, and missed learning opportunities. In contrast, well-planned instruction creates confidence, clarity, and measurable progress.",
+          "Professional planning allows teachers to:",
+          "Deliver lessons with direction and purpose",
+          "Use classroom time efficiently",
+          "Maintain continuity in learning",
+          "Address student needs effectively",
+          "Improve academic outcomes",
+          "Build confidence in learners",
+          "Planning transforms teaching from routine delivery into intentional excellence."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "The Power of Clear Learning Objectives",
+        paragraphs: [
+          "Every lesson should begin with a clear answer to one question:",
+          "What should students know, understand, or be able to do after this lesson?",
+          "This is the role of learning objectives.",
+          "Strong objectives help teachers:",
+          "Stay focused on outcomes",
+          "Choose the right teaching strategies",
+          "Measure student understanding",
+          "Ensure meaningful progress",
+          "Well-designed objectives create lessons that are purposeful rather than random."
+        ],
+        listStart: 4,
+        listEnd: 7
+      },
+      {
+        heading: "The Structure of a High-Impact Lesson",
+        paragraphs: [
+          "An effective lesson is carefully organized to maximize student learning. A professional instructional sequence includes:",
+          "1. Engaging Introduction",
+          "Capturing student attention and connecting prior knowledge.",
+          "2. Clear Explanation",
+          "Presenting content with clarity, logic, and confidence.",
+          "3. Active Participation",
+          "Encouraging discussion, questioning, practice, and interaction.",
+          "4. Assessment for Understanding",
+          "Checking progress through questioning and observation.",
+          "5. Summary and Reinforcement",
+          "Reviewing key ideas and strengthening retention.",
+          "6. Meaningful Follow-Up",
+          "Homework or tasks that extend learning.",
+          "This structured approach creates consistency and high standards."
+        ]
+      },
+      {
+        heading: "Selecting the Right Teaching Methods",
+        paragraphs: [
+          "Expert teaching requires flexibility. Different topics require different approaches. A skilled educator knows when to use:",
+          "Direct instruction",
+          "Discussion-based learning",
+          "Demonstration methods",
+          "Cooperative learning",
+          "Inquiry approaches",
+          "Practice and reinforcement strategies",
+          "The best teachers do not rely on one method - they choose the right method for the right learners."
+        ],
+        listStart: 1,
+        listEnd: 6
+      },
+      {
+        heading: "Preparing for Diverse Learners",
+        paragraphs: [
+          "Every classroom contains students with different abilities, confidence levels, and learning styles. Planning allows teachers to anticipate these differences and provide support where needed.",
+          "Prepared teachers can:",
+          "Simplify difficult concepts",
+          "Provide enrichment for advanced learners",
+          "Use varied examples",
+          "Adjust pacing",
+          "Increase participation for all students",
+          "This is where professional teaching becomes transformational."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "My Professional Philosophy",
+        paragraphs: [
+          "I believe preparation reflects professionalism. When a teacher plans with excellence, students learn with confidence. Strong instruction is never accidental - it is designed, refined, and delivered with purpose.",
+          "With years of classroom experience, I continue to uphold a standard where every lesson is intentional, every minute is valuable, and every learner matters.",
+          "Great teaching begins with great planning."
+        ]
+      }
+    ],
+    finalThought: "Teachers shape futures not only through knowledge, but through preparation. When lessons are structured, objectives are clear, and instruction is purposeful, classrooms become centers of achievement. Planning is not paperwork - it is the blueprint of educational success."
+  },
+  {
+    title: "Creating High-Performance Classrooms Through Leadership and Discipline",
+    desc: "A professional guide to building productive classrooms through structure, motivation, and educational leadership.",
+    date: "Apr 22, 2026",
+    readTime: "9 min read",
+    tag: "Teaching",
+    gradient: "from-violet-500 to-indigo-600",
+    glow: "shadow-[0_0_30px_rgba(99,102,241,0.3)]",
+    content: [
+      {
+        heading: "By Sir Riaz",
+        paragraphs: [
+          "A successful classroom is never built by chance - it is built through leadership, structure, motivation, and professional classroom management.",
+          "While subject knowledge is essential, the true strength of an educator is often reflected in the environment they create for learning.",
+          "As an experienced teacher and educationist, I firmly believe that productive classrooms are the result of clear expectations, respectful relationships, and purposeful management. When the classroom environment is strong, student achievement naturally rises."
+        ]
+      },
+      {
+        heading: "Why Classroom Environment Matters",
+        paragraphs: [
+          "Even the best lesson can fail in a disorganized classroom. Students learn most effectively when they feel secure, focused, and engaged.",
+          "A productive learning environment provides:",
+          "Order and discipline",
+          "Emotional safety",
+          "Respectful interaction",
+          "Maximum learning time",
+          "Strong motivation",
+          "Consistent academic focus",
+          "Great teaching requires great classroom culture."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Classroom Management as Educational Leadership",
+        paragraphs: [
+          "Modern classroom management is not about fear or control - it is about leadership.",
+          "An effective teacher leads by:",
+          "Setting clear expectations",
+          "Establishing routines",
+          "Managing time efficiently",
+          "Preventing disruptions early",
+          "Guiding behavior positively",
+          "Maintaining fairness and consistency",
+          "Students perform better when structure is visible and expectations are understood."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "The Power of Prevention Over Punishment",
+        paragraphs: [
+          "Experienced educators know that the best discipline strategy is prevention. Problems decrease when classrooms are active, organized, and purposeful.",
+          "Preventive strategies include:",
+          "Starting lessons promptly",
+          "Keeping students engaged",
+          "Monitoring continuously",
+          "Using smooth transitions",
+          "Addressing issues calmly and early",
+          "Building mutual respect",
+          "Professional management focuses on correction without humiliation."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Time Management: Protecting Learning Minutes",
+        paragraphs: [
+          "Every minute in the classroom matters. Strong teachers understand that lost time often becomes lost achievement.",
+          "Effective time management includes:",
+          "Fast lesson openings",
+          "Clear instructions",
+          "Smooth movement between activities",
+          "Prepared resources",
+          "Consistent pacing",
+          "Immediate engagement",
+          "When time is respected, learning becomes stronger and more efficient."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Motivation: Unlocking Student Potential",
+        paragraphs: [
+          "Students do not only need instruction - they need inspiration.",
+          "Motivated learners show:",
+          "Greater effort",
+          "Better participation",
+          "Higher confidence",
+          "Stronger discipline",
+          "Improved results",
+          "Teachers can build motivation through:",
+          "Encouragement",
+          "Meaningful praise",
+          "Challenging but achievable tasks",
+          "Real-life relevance",
+          "Positive recognition",
+          "Belief in student ability",
+          "Sometimes one encouraging teacher changes a student's entire future."
+        ],
+        listStart: 2,
+        listEnd: 6,
+        secondListStart: 8,
+        secondListEnd: 13
+      },
+      {
+        heading: "Relationships Build Results",
+        paragraphs: [
+          "Students respond positively to teachers who are firm, fair, and genuinely invested in their success.",
+          "Strong teacher-student relationships create:",
+          "Trust",
+          "Better behavior",
+          "Open communication",
+          "Higher confidence",
+          "Greater classroom participation",
+          "Respect is one of the most powerful tools in education."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "My Professional Philosophy",
+        paragraphs: [
+          "I believe a classroom should reflect excellence, discipline, and dignity. Students deserve an environment where learning is valued, behavior is guided, and success is expected.",
+          "With years of practical teaching experience, I continue to develop classrooms where structure meets encouragement, standards meet support, and students grow academically and personally.",
+          "A strong classroom creates strong futures."
+        ]
+      }
+    ],
+    finalThought: "Education thrives where order meets inspiration. When teachers manage with wisdom, motivate with sincerity, and lead with professionalism, classrooms become places of transformation. The quality of a classroom environment often determines the quality of student achievement."
+  },
+  {
+    title: "Transforming Learning Through Powerful Instructional Methods",
+    desc: "A professional perspective on selecting the right instructional method to maximize student achievement.",
+    date: "Apr 22, 2026",
+    readTime: "9 min read",
+    tag: "Teaching",
+    gradient: "from-blue-500 to-cyan-500",
+    glow: "shadow-[0_0_30px_rgba(59,130,246,0.3)]",
+    content: [
+      {
+        heading: "By Sir Riaz",
+        paragraphs: [
+          "True teaching excellence is not measured only by what a teacher knows - it is measured by how effectively that knowledge is delivered.",
+          "In modern education, instructional methods are the bridge between curriculum goals and student success.",
+          "As an experienced teacher and educationist, I believe that selecting the right teaching strategy at the right time is one of the highest forms of professional skill. Great educators do not simply teach lessons - they design learning experiences that inspire understanding, confidence, and achievement."
+        ]
+      },
+      {
+        heading: "Why Teaching Methods Matter",
+        paragraphs: [
+          "Students learn in different ways. Some respond to explanation, others through discussion, practice, inquiry, or collaboration. This is why one fixed teaching style cannot meet the needs of every learner.",
+          "Effective instructional methods help teachers to:",
+          "Increase student engagement",
+          "Improve understanding and retention",
+          "Encourage participation",
+          "Develop higher-order thinking",
+          "Build confidence and independence",
+          "Achieve learning outcomes efficiently",
+          "The method often determines the impact of the lesson."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Direct Instruction: Teaching with Clarity",
+        paragraphs: [
+          "There are moments when students need clear, structured, expert guidance. Direct instruction is highly effective when introducing new concepts, procedures, or foundational knowledge.",
+          "It includes:",
+          "Clear explanations",
+          "Step-by-step guidance",
+          "Demonstration of concepts",
+          "Guided practice",
+          "Immediate feedback",
+          "When used skillfully, direct teaching creates strong academic foundations."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "Discussion-Based Learning: Developing Thinkers",
+        paragraphs: [
+          "Education should not be one-way communication. Meaningful discussion helps students think, question, analyze, and express ideas confidently.",
+          "Discussion methods promote:",
+          "Communication skills",
+          "Critical thinking",
+          "Confidence in speaking",
+          "Respect for diverse viewpoints",
+          "Deeper understanding of topics",
+          "A classroom that thinks aloud becomes a classroom that grows."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "Cooperative Learning: Success Through Teamwork",
+        paragraphs: [
+          "Some of the most powerful learning happens when students work together with purpose.",
+          "Cooperative learning develops:",
+          "Collaboration",
+          "Responsibility",
+          "Leadership",
+          "Peer support",
+          "Social skills",
+          "Shared achievement",
+          "Students often learn strongly when they learn together."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Inquiry and Problem Solving",
+        paragraphs: [
+          "Modern learners must be prepared for real-world challenges. Inquiry-based methods encourage students to investigate, ask questions, and solve problems independently.",
+          "These strategies build:",
+          "Curiosity",
+          "Creativity",
+          "Analytical thinking",
+          "Decision-making ability",
+          "Lifelong learning habits",
+          "This transforms students from passive listeners into active learners."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "Matching Method with Need",
+        paragraphs: [
+          "Professional educators understand that no single method fits every lesson. Expert teaching means selecting the best strategy according to:",
+          "Topic complexity",
+          "Student age and ability",
+          "Learning objectives",
+          "Time available",
+          "Classroom environment",
+          "Flexibility is a hallmark of master teaching."
+        ],
+        listStart: 1,
+        listEnd: 5
+      },
+      {
+        heading: "Technology and Modern Instruction",
+        paragraphs: [
+          "Today's classrooms also benefit from technology-enhanced methods such as:",
+          "Multimedia presentations",
+          "Interactive exercises",
+          "Digital assessments",
+          "Online collaboration tools",
+          "Visual learning resources",
+          "When used wisely, technology strengthens - not replaces - quality teaching."
+        ],
+        listStart: 1,
+        listEnd: 5
+      },
+      {
+        heading: "My Professional Philosophy",
+        paragraphs: [
+          "I believe that every lesson should be intentionally designed to maximize learning. A teacher must know not only what to teach, but how to teach in a way that reaches every learner.",
+          "With years of experience in education, I continue to apply a balanced instructional approach where clarity meets creativity, discipline meets engagement, and knowledge leads to excellence.",
+          "The right method can unlock the full potential of every student."
+        ]
+      }
+    ],
+    finalThought: "Great teachers are not limited by one style - they are empowered by many. When instructional methods are chosen wisely, classrooms become dynamic spaces of discovery, progress, and achievement. Teaching methods are tools, but in expert hands, they become transformation."
+  },
+  {
+    title: "Assessment Excellence: Measuring Learning, Guiding Success",
+    desc: "A professional guide to using assessment as a tool for growth, feedback, and instructional improvement.",
+    date: "Apr 22, 2026",
+    readTime: "9 min read",
+    tag: "Teaching",
+    gradient: "from-emerald-500 to-cyan-500",
+    glow: "shadow-[0_0_30px_rgba(16,185,129,0.3)]",
+    content: [
+      {
+        heading: "By Sir Riaz",
+        paragraphs: [
+          "In education, teaching is only complete when learning is accurately measured. Assessment is not merely about marks or grades - it is a powerful tool that reveals progress, identifies gaps, motivates learners, and guides future instruction.",
+          "As an experienced teacher and educationist, I believe that effective assessment is one of the most important pillars of academic excellence.",
+          "When used professionally, assessment transforms classrooms into systems of continuous growth and achievement."
+        ]
+      },
+      {
+        heading: "Why Assessment Matters",
+        paragraphs: [
+          "A teacher may deliver an excellent lesson, but without assessment, it is difficult to know what students truly understood.",
+          "Assessment helps educators to:",
+          "Measure student learning accurately",
+          "Identify strengths and weaknesses",
+          "Improve teaching strategies",
+          "Provide timely feedback",
+          "Track progress over time",
+          "Raise academic standards",
+          "Assessment turns teaching into informed teaching."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Assessment Beyond Traditional Testing",
+        paragraphs: [
+          "Modern education recognizes that learning cannot be measured by one test alone. True evaluation requires multiple methods that capture knowledge, skills, effort, and understanding.",
+          "Professional assessment may include:",
+          "Class tests and quizzes",
+          "Oral questioning",
+          "Homework review",
+          "Projects and presentations",
+          "Practical tasks",
+          "Observation",
+          "Class participation",
+          "Written examinations",
+          "The best systems measure both performance and potential."
+        ],
+        listStart: 2,
+        listEnd: 9
+      },
+      {
+        heading: "Formative Assessment: Improving While Learning",
+        paragraphs: [
+          "One of the most valuable approaches is formative assessment - checking understanding during the learning process rather than only at the end.",
+          "This allows teachers to:",
+          "Correct misconceptions early",
+          "Adjust lesson pace",
+          "Provide support immediately",
+          "Increase confidence",
+          "Strengthen retention",
+          "Assessment should guide learning, not just judge it."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "Feedback: The Heart of Progress",
+        paragraphs: [
+          "Marks alone do not create improvement. Meaningful feedback helps students understand:",
+          "What they did well",
+          "Where they need improvement",
+          "How to improve next time",
+          "What excellence looks like",
+          "Constructive feedback builds motivation and self-belief."
+        ],
+        listStart: 1,
+        listEnd: 4
+      },
+      {
+        heading: "Fairness and Professional Integrity",
+        paragraphs: [
+          "Assessment must always be:",
+          "Clear",
+          "Objective",
+          "Consistent",
+          "Transparent",
+          "Based on standards",
+          "Free from favoritism",
+          "Students trust systems that are fair, and trust increases performance."
+        ],
+        listStart: 1,
+        listEnd: 6
+      },
+      {
+        heading: "Using Results to Improve Teaching",
+        paragraphs: [
+          "Assessment is not only for students - it also informs teachers.",
+          "Wise educators analyze results to ask:",
+          "Which topics need reteaching?",
+          "Which students need support?",
+          "Which methods were effective?",
+          "How can instruction improve further?",
+          "This reflective practice is a mark of professional teaching excellence."
+        ],
+        listStart: 2,
+        listEnd: 5
+      },
+      {
+        heading: "Encouraging a Growth Mindset",
+        paragraphs: [
+          "Strong assessment systems teach students that ability grows through effort, strategy, and persistence.",
+          "Students begin to see mistakes as:",
+          "Learning opportunities",
+          "Feedback signals",
+          "Steps toward mastery",
+          "This mindset builds resilience and long-term success."
+        ],
+        listStart: 2,
+        listEnd: 4
+      },
+      {
+        heading: "My Professional Philosophy",
+        paragraphs: [
+          "I believe assessment should empower, not discourage. Students deserve systems that recognize progress, reward effort, and inspire improvement.",
+          "With years of educational experience, I continue to apply assessment practices that combine rigor with fairness, standards with encouragement, and evaluation with purpose.",
+          "When assessment is meaningful, achievement becomes measurable and attainable."
+        ]
+      }
+    ],
+    finalThought: "Great teachers do not simply teach and move on - they measure, guide, refine, and elevate learning. Effective assessment creates clarity for teachers and confidence for students. Assessment is not the end of learning; it is the pathway to better learning."
+  },
+  {
+    title: "Professional Growth in Education: Advancing Excellence Through Continuous Development",
+    desc: "A professional perspective on lifelong educator development, reflective practice, and modern instructional leadership.",
+    date: "Apr 22, 2026",
+    readTime: "9 min read",
+    tag: "Teaching",
+    gradient: "from-cyan-500 to-blue-600",
+    glow: "shadow-[0_0_30px_rgba(6,182,212,0.3)]",
+    content: [
+      {
+        heading: "By Sir Riaz",
+        paragraphs: [
+          "In the field of education, true excellence is never static. The most distinguished educators are not those who rely solely on past experience, but those who continuously refine their practice, expand their knowledge, and adapt to the evolving needs of learners.",
+          "As an experienced teacher and expert educationist, I regard professional growth as one of the defining responsibilities of every serious educator.",
+          "Teaching is a profession that demands lifelong learning, intellectual curiosity, and an unwavering commitment to improvement."
+        ]
+      },
+      {
+        heading: "Why Continuous Development Defines Great Educators",
+        paragraphs: [
+          "Education changes with every generation. New learning needs, modern technologies, updated curricula, and shifting student expectations require teachers to remain progressive and professionally current.",
+          "Continuous development enables educators to:",
+          "Strengthen instructional effectiveness",
+          "Master modern teaching methodologies",
+          "Improve student outcomes",
+          "Build stronger classroom leadership",
+          "Respond to changing educational demands",
+          "Increase professional confidence and impact",
+          "A teacher who grows consistently becomes an enduring force of excellence."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Reflection: The Hallmark of Professional Maturity",
+        paragraphs: [
+          "Highly effective educators do not merely teach - they evaluate their own practice with honesty and precision.",
+          "Reflective professionals regularly consider:",
+          "Were learning objectives achieved effectively?",
+          "Which strategies created the strongest engagement?",
+          "Where did students face difficulty?",
+          "How can delivery become sharper and more impactful?",
+          "What improvements can elevate future lessons?",
+          "Reflection transforms routine experience into professional mastery."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "Lifelong Learning as a Professional Obligation",
+        paragraphs: [
+          "The finest teachers remain learners throughout their careers. They understand that credibility and excellence are sustained through continuous intellectual development.",
+          "Professional learning may include:",
+          "Educational research and advanced reading",
+          "Workshops, seminars, and certifications",
+          "Curriculum innovation",
+          "Technology integration",
+          "Collaboration with leading educators",
+          "Advanced academic qualifications",
+          "Those who continue learning remain relevant, respected, and effective."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Leading in the Modern Educational Era",
+        paragraphs: [
+          "Today's educators are expected to do far more than deliver content. They are mentors, strategists, communicators, and institutional contributors.",
+          "Continuous growth prepares teachers to lead in areas such as:",
+          "Student-centered instruction",
+          "Inclusive learning environments",
+          "Digital-age teaching practices",
+          "Performance-based assessment",
+          "Academic mentoring",
+          "Educational leadership and policy contribution",
+          "Modern classrooms require modern professionalism."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Professional Identity Built on Standards",
+        paragraphs: [
+          "A respected educator is recognized not only by skill, but by character. Professional identity is shaped through conduct, discipline, and ethical consistency.",
+          "Core professional qualities include:",
+          "Integrity",
+          "Accountability",
+          "Reliability",
+          "Excellence in preparation",
+          "Respect for learners",
+          "Commitment to institutional standards",
+          "Students may forget lessons, but they remember professional role models."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "My Educational Philosophy",
+        paragraphs: [
+          "I believe every academic year should enhance a teacher's wisdom, sharpen instructional quality, and deepen influence. Experience becomes truly valuable only when it is paired with reflection, learning, and disciplined progress.",
+          "With years of teaching experience and a sustained commitment to educational excellence, I continue to evolve professionally - refining methodologies, embracing innovation, and contributing meaningfully to student success and institutional growth.",
+          "The strongest educators are those who never stop developing."
+        ]
+      }
+    ],
+    finalThought: "Professional growth is not optional for those who seek excellence - it is essential. When educators commit themselves to lifelong development, they remain effective in the present and influential in the future. Great teachers teach successfully. Exceptional teachers continue improving while they teach."
+  },
+  {
+    title: "Educational Leadership: Inspiring Excellence Beyond the Classroom",
+    desc: "A professional perspective on service-driven leadership that raises standards, strengthens people, and shapes institutional success.",
+    date: "Apr 22, 2026",
+    readTime: "9 min read",
+    tag: "Leadership",
+    gradient: "from-indigo-600 to-violet-500",
+    glow: "shadow-[0_0_30px_rgba(99,102,241,0.3)]",
+    content: [
+      {
+        heading: "By Sir Riaz",
+        paragraphs: [
+          "The influence of a great educator extends far beyond lesson delivery. True professionals in education become leaders - individuals who inspire standards, guide institutions, mentor others, and shape a culture of excellence.",
+          "As an experienced teacher and expert educationist, I believe leadership in education is not defined by title alone.",
+          "It is defined by vision, credibility, service, and the ability to elevate everyone within a learning community."
+        ]
+      },
+      {
+        heading: "Why Leadership Matters in Education",
+        paragraphs: [
+          "Schools progress when educators lead with purpose. Strong educational leadership creates environments where teachers perform better, students achieve more, and institutions move forward with clarity.",
+          "Effective leadership contributes to:",
+          "Higher academic standards",
+          "Stronger staff collaboration",
+          "Improved student discipline",
+          "Positive school culture",
+          "Innovation in teaching practices",
+          "Long-term institutional growth",
+          "Where leadership is strong, excellence becomes sustainable."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Leadership Begins in the Classroom",
+        paragraphs: [
+          "Every effective teacher is already a leader. Daily classroom decisions influence student behavior, confidence, mindset, and achievement.",
+          "Teachers lead when they:",
+          "Set high expectations",
+          "Model discipline and professionalism",
+          "Inspire responsibility",
+          "Encourage resilience",
+          "Build student confidence",
+          "Maintain fairness and consistency",
+          "Before leading an institution, one must first lead a classroom with excellence."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Vision: The Core of Effective Leadership",
+        paragraphs: [
+          "Educational leaders do not merely manage the present - they shape the future.",
+          "A strong vision includes:",
+          "Clear academic goals",
+          "High expectations for performance",
+          "Continuous improvement culture",
+          "Student-centered priorities",
+          "Commitment to integrity and standards",
+          "Vision gives direction; leadership turns direction into results."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "Influence Through Example",
+        paragraphs: [
+          "The most respected leaders influence through conduct rather than authority alone.",
+          "Professional educators gain trust when they demonstrate:",
+          "Punctuality",
+          "Preparation",
+          "Ethical behavior",
+          "Calm decision-making",
+          "Respectful communication",
+          "Consistency under pressure",
+          "People follow examples more willingly than instructions."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Developing Others",
+        paragraphs: [
+          "Leadership in education is also measured by how many others grow under your guidance.",
+          "Strong educators invest in:",
+          "Mentoring younger teachers",
+          "Supporting colleagues",
+          "Sharing effective practices",
+          "Encouraging teamwork",
+          "Building confidence in others",
+          "Great leaders do not compete with talent - they cultivate it."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "Managing Change with Wisdom",
+        paragraphs: [
+          "Modern education constantly evolves. New curricula, technology, assessment systems, and learner expectations require leaders who can guide change intelligently.",
+          "Effective leaders respond with:",
+          "Adaptability",
+          "Strategic thinking",
+          "Calmness during transition",
+          "Data-informed decisions",
+          "Clear communication",
+          "Leadership is tested most during change."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "My Educational Philosophy",
+        paragraphs: [
+          "I believe leadership in education must always be service-driven. Influence should be used to raise standards, strengthen people, and create opportunities for growth.",
+          "With years of teaching experience and dedication to academic excellence, I continue to lead through professionalism, instructional expertise, discipline, and commitment to meaningful progress.",
+          "The best leaders in education create success in others."
+        ]
+      }
+    ],
+    finalThought: "Educational leadership is one of the most powerful forces in society. When educators lead with vision, integrity, and excellence, they shape not only schools, but futures. A teacher teaches lessons. A leader multiplies impact."
+  },
+  {
+    title: "Innovation in Education: Preparing Learners for the Future",
+    desc: "A professional perspective on integrating innovation, structure, and future-ready learning in modern classrooms.",
+    date: "Apr 22, 2026",
+    readTime: "9 min read",
+    tag: "Innovation",
+    gradient: "from-teal-500 to-blue-600",
+    glow: "shadow-[0_0_30px_rgba(20,184,166,0.3)]",
+    content: [
+      {
+        heading: "By Sir Riaz",
+        paragraphs: [
+          "Education can no longer remain limited to traditional routines. The modern world demands learners who can think critically, solve problems creatively, adapt quickly, and compete confidently in a changing global environment.",
+          "For this reason, innovation has become an essential pillar of educational excellence.",
+          "As an experienced teacher and expert educationist, I believe innovation in education is not about abandoning values or discipline - it is about enhancing learning through smarter methods, stronger engagement, and future-focused teaching practices."
+        ]
+      },
+      {
+        heading: "Why Innovation Matters in Education",
+        paragraphs: [
+          "Today's students are growing in a fast-moving digital age. They need learning experiences that match the realities of modern life and future careers.",
+          "Innovation helps schools and teachers to:",
+          "Increase student engagement",
+          "Improve learning outcomes",
+          "Develop critical thinking",
+          "Encourage creativity",
+          "Build confidence and independence",
+          "Prepare students for real-world challenges",
+          "When education evolves, student potential expands."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Moving Beyond Traditional Teaching",
+        paragraphs: [
+          "Traditional teaching has value, but modern classrooms require more than passive listening and memorization.",
+          "Innovative teaching includes:",
+          "Interactive learning experiences",
+          "Student-centered instruction",
+          "Collaborative activities",
+          "Real-world problem solving",
+          "Inquiry-based learning",
+          "Technology-supported lessons",
+          "Students learn more deeply when they actively participate."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Technology as a Powerful Educational Tool",
+        paragraphs: [
+          "When used wisely, technology can transform classrooms into dynamic learning environments.",
+          "Examples include:",
+          "Smart presentations",
+          "Digital assessments",
+          "Online learning platforms",
+          "Educational videos",
+          "Interactive practice tools",
+          "Research and communication resources",
+          "Technology should enhance strong teaching - not replace it."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Developing 21st Century Skills",
+        paragraphs: [
+          "Modern education must prepare learners not only for exams, but for life and leadership.",
+          "Essential future-ready skills include:",
+          "Communication",
+          "Collaboration",
+          "Creativity",
+          "Critical thinking",
+          "Adaptability",
+          "Leadership",
+          "Digital literacy",
+          "These abilities shape confident and capable individuals."
+        ],
+        listStart: 2,
+        listEnd: 8
+      },
+      {
+        heading: "Encouraging Curiosity and Independence",
+        paragraphs: [
+          "Innovative classrooms motivate students to ask questions, explore ideas, and take ownership of learning.",
+          "This creates learners who are:",
+          "Curious",
+          "Self-motivated",
+          "Responsible",
+          "Solution-oriented",
+          "Lifelong learners",
+          "The goal is not only to teach answers, but to develop thinkers."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "Balancing Innovation with Discipline",
+        paragraphs: [
+          "True innovation does not mean disorder. The best educational systems combine creativity with structure, freedom with responsibility, and modern methods with strong standards.",
+          "Successful classrooms maintain:",
+          "Clear expectations",
+          "Respectful behavior",
+          "Organized routines",
+          "Purposeful learning goals",
+          "Professional accountability",
+          "Innovation works best when supported by discipline."
+        ],
+        listStart: 2,
+        listEnd: 6
+      },
+      {
+        heading: "My Educational Philosophy",
+        paragraphs: [
+          "I believe the strongest educators preserve timeless values while embracing modern progress. Students deserve classrooms that inspire excellence, encourage exploration, and prepare them for tomorrow's world.",
+          "With years of teaching experience and dedication to educational advancement, I continue to integrate effective innovation with academic rigor, discipline, and student-centered success.",
+          "The future belongs to learners prepared by innovative educators."
+        ]
+      }
+    ],
+    finalThought: "Innovation in education is not a luxury - it is a necessity. When teachers combine experience, vision, and modern methods, they create learning environments where students thrive today and lead tomorrow. Great education respects the past, excels in the present, and prepares for the future."
+  },
+  {
+    title: "Educational Excellence Through Character, Values, and Lasting Impact",
+    desc: "A professional perspective on value-based education that develops principled learners and long-term societal impact.",
+    date: "Apr 22, 2026",
+    readTime: "9 min read",
+    tag: "Values",
+    gradient: "from-amber-500 to-orange-500",
+    glow: "shadow-[0_0_30px_rgba(245,158,11,0.3)]",
+    content: [
+      {
+        heading: "By Sir Riaz",
+        paragraphs: [
+          "The highest purpose of education is not only to produce successful students - it is to develop principled individuals who contribute positively to society.",
+          "Academic achievement is important, but character, integrity, discipline, and values are what give education its lasting meaning.",
+          "As an experienced teacher and expert educationist, I believe that true teaching excellence is measured not only by examination results, but by the kind of human beings students become under our guidance."
+        ]
+      },
+      {
+        heading: "Why Values Matter in Education",
+        paragraphs: [
+          "Knowledge without values can create ability without responsibility. Education must therefore shape both the mind and the character.",
+          "Value-based education helps students develop:",
+          "Integrity",
+          "Respect",
+          "Responsibility",
+          "Discipline",
+          "Empathy",
+          "Honesty",
+          "Leadership qualities",
+          "When values are strong, success becomes meaningful and sustainable."
+        ],
+        listStart: 2,
+        listEnd: 8
+      },
+      {
+        heading: "Teachers as Builders of Character",
+        paragraphs: [
+          "Students learn not only from lessons, but from the conduct of their teachers. Every teacher becomes a living example of professionalism, ethics, and personal standards.",
+          "Educators shape character when they model:",
+          "Punctuality",
+          "Fairness",
+          "Respectful communication",
+          "Commitment to duty",
+          "Calmness under pressure",
+          "Consistency in standards",
+          "Students often remember behavior longer than words."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Creating a Culture of Responsibility",
+        paragraphs: [
+          "Schools must prepare learners for real life, where responsibility determines success.",
+          "Students should gradually learn to:",
+          "Manage time effectively",
+          "Complete commitments",
+          "Respect rules",
+          "Work independently",
+          "Accept accountability",
+          "Contribute positively to teams",
+          "These habits build maturity and readiness for the future."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Discipline as a Pathway to Freedom",
+        paragraphs: [
+          "Discipline is sometimes misunderstood as restriction. In reality, discipline creates the structure that allows growth, excellence, and self-control.",
+          "Well-guided discipline leads to:",
+          "Better focus",
+          "Stronger habits",
+          "Higher achievement",
+          "Emotional control",
+          "Respect for others",
+          "Long-term success",
+          "Freedom without discipline weakens potential; discipline channels it."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Education for Society, Not Only Self",
+        paragraphs: [
+          "The purpose of learning extends beyond personal gain. Great education encourages students to become citizens who uplift communities and serve society.",
+          "Students should be inspired toward:",
+          "Social responsibility",
+          "Ethical leadership",
+          "Cooperation",
+          "Service-mindedness",
+          "Respect for diversity",
+          "Positive contribution",
+          "The best education benefits both the learner and the world around them."
+        ],
+        listStart: 2,
+        listEnd: 7
+      },
+      {
+        heading: "Lasting Impact of a Great Teacher",
+        paragraphs: [
+          "A teacher's influence often appears years later - in the confidence of a student, the honesty of a leader, the discipline of a professional, or the gratitude of a successful adult.",
+          "This is why teaching remains one of the most noble professions: its impact multiplies across generations."
+        ]
+      },
+      {
+        heading: "My Educational Philosophy",
+        paragraphs: [
+          "I believe academic success must always be accompanied by strong values. A truly successful student is knowledgeable, disciplined, respectful, and prepared to make a positive difference.",
+          "With years of teaching experience, I continue to guide learners not only toward high performance, but toward high character and purposeful lives.",
+          "The finest education develops both excellence and ethics."
+        ]
+      }
+    ],
+    finalThought: "Examinations may measure knowledge, but life measures character. When teachers educate hearts as well as minds, they create legacies that outlive classrooms. Great teachers teach subjects. Exceptional teachers shape human beings."
+  },
 ];
 
 const Blog = () => {
   const [activeBlogIndex, setActiveBlogIndex] = useState(null);
   const [showAllPosts, setShowAllPosts] = useState(false);
+  const featuredDefaultTitle = "Professional Growth in Education: Advancing Excellence Through Continuous Development";
 
   const handleHeadingClick = (index, hasContent) => {
     if (!hasContent) return;
@@ -590,7 +1651,11 @@ const Blog = () => {
 
   const activeBlog = activeBlogIndex !== null ? blogs[activeBlogIndex] : null;
   const hasMorePosts = blogs.length > 3;
-  const visibleBlogs = showAllPosts || !hasMorePosts ? blogs : blogs.slice(0, 3);
+  const featuredDefaultPost = blogs.find((blog) => blog.title === featuredDefaultTitle);
+  const defaultVisibleBlogs = [blogs[0], blogs[1], featuredDefaultPost]
+    .filter(Boolean)
+    .filter((blog, index, arr) => arr.findIndex((item) => item.title === blog.title) === index);
+  const visibleBlogs = showAllPosts || !hasMorePosts ? blogs : defaultVisibleBlogs;
 
   return (
     <>
